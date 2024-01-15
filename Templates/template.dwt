@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Template</title>
+<!-- TemplateEndEditable -->
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+    <div class="body">
+        <header>
+        <!-- TemplateBeginEditable name="header" -->
+            <h1>Xiaomi Devices Custom Rom İnstallation</h1>
+        <!-- TemplateEndEditable -->
+        </header>
+        <nav>
+            <a href="https://nuriibyrm.github.io/rom/">Home</a>
+            <a href="download.html">Download</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+        <main>
+        <!-- TemplateBeginEditable name="Main" -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eum ratione optio quos, dignissimos commodi laborum similique dolore accusantium quasi! Reprehenderit cumque, illo eum explicabo suscipit repudiandae incidunt officiis odit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque accusamus consequatur vero eveniet, aspernatur quibusdam fuga, ea facere deserunt, ipsum eos? Optio aspernatur aliquam iure rerum dignissimos. Ad, laudantium, molestias!</p>
+        <!-- TemplateEndEditable -->
+        </main>
+        <footer>
+            <a href="https://nuriibyrm.github.io/page/" target="_blank"><p>&copy; 2024 - BSC SOFTWARE</p></a>
+        </footer>
+    </div>
+</body>
+</html>

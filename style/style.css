@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color: #3D3B40; text-align: center; text-decoration: none; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; font-size: 18px;}
+.body {width: 750px; margin: 0px auto; border: solid; border-radius: 10px; border-color: #525CEB; padding: 15px;}
+nav {border: solid; border-radius: 10px; border-color: #525CEB;  padding: 20px;}
+nav a {color: #BFCFE7; border-style: solid; border-radius: 10px; padding: 10px; text-decoration: none; margin: 10px; }
+header {color: #BFCFE7}
+footer {border: solid; border-radius: 10px; border-color: #525CEB;  padding: 5px;}
+footer a {color: #BFCFE7; text-decoration: none;}
+main {color: #F8EDFF; padding: 15px;}
+main p{text-decoration: none; font-size: 20px;}
+main h2 {color: #BFCFE7;}
+.download {color: #525CEB; border-style: solid; border-radius: 10px; padding: 5px; text-decoration: none; background-color: #F8EDFF;}
+.codes {text-align: left; padding: 5px; border-style: solid; border-color: #BFCFE7; border-radius: 10px; margin-bottom: 25px; color: #BFCFE7}
+.link {color: #525CEB; border-style: solid; border-radius: 10px; padding: 20px; text-decoration: none; background-color: #F8EDFF;}
+.bosluk {margin: 70px; font-size: 25px;}
+span{color: #525CEB; font-style: bold;}
