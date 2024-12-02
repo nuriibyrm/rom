@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Xiaomi cihazlarınız için Soft UI tasarımlı ROM yükleme rehberi.">
+  <title>Xiaomi ROM Rehberi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <script>
+    function copyText(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Komut kopyalandı: " + text);
+      }).catch(err => {
+        alert("Kopyalama başarısız: " + err);
+      });
+    }
+  </script>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo"><span style="color: #FF6900;">Xiaomi</span> ROM Rehberi</h1>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#tools"><i class="fas fa-tools"></i> Araçlar</a></li>
+        <li><a href="#stock-rom"><i class="fas fa-download"></i> Stock ROM</a></li>
+        <li><a href="#recovery"><i class="fas fa-cogs"></i> Recovery</a></li>
+        <li><a href="#custom-rom"><i class="fas fa-cogs"></i> Custom ROM</a></li>
+        <li><a href="#custom-rom-pages"><i class="fas fa-terminal"></i> Custom ROM Sayfaları</a></li>
+        <li><a href="#commands"><i class="fas fa-terminal"></i> Komutlar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h2>Xiaomi Cihazlarınız İçin Rehber</h2>
+      <p>Stock ve Custom ROM yüklemelerini kolayca öğrenin!</p>
+      <a href="#tools" class="btn">Hemen Başla</a>
+    </div>
+  </header>
+
+  <!-- Tools Section -->
+  <section id="tools" class="section">
+    <div class="container">
+      <h3><i class="fas fa-tools"></i> Gerekli Araçlar</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Mi Flash Tool</h4>
+          <p>Stock ROM yükleme aracı.</p>
+          <a href="https://www.xiaomiflash.com/download/" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+        <div class="card">
+          <h4>Minimal ADB & FASTBOOT Tool</h4>
+          <p>ADB ve FASTBOOT bağlantısı için sürücü.</p>
+          <a href="https://androidmtk.com/download-minimal-adb-and-fastboot-tool" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+        <div class="card">
+          <h4>Mi Unlock Tool</h4>
+          <p>Bootloader Kilidi Açmak için program.</p>
+          <a href="https://en.miui.com/unlock/download_en.html" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stock ROM Section -->
+  <section id="stock-rom" class="section">
+    <div class="container">
+      <h3><i class="fas fa-download"></i> Stock ROM</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Xiaomi Mi Note 10 Lite</h4>
+          <p>V13.0.4.0.SFNMIXM</p>
+          <a href="https://mifirm.net/download/8527" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+        <div class="card">
+          <h4>Xiaomi Mi Note 10 Lite</h4>
+          <p>EU V13.0.4.0.SFNMIXM</p>
+          <a href="https://mifirm.net/downloadeu/9439" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recovery Section -->
+  <section id="recovery" class="section">
+    <div class="container">
+      <h3><i class="fas fa-cogs"></i> Recovery</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Android 14 TWRP 3.7.0</h4>
+          <p></p>
+          <a href="https://github.com/AndroidHQ254/Action-TWRP-builder/releases/tag/7072614810" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+        <div class="card">
+          <h4>Android 14 PitchBlack Recovery</h4>
+          <p></p>
+          <a href="https://github.com/AndroidHQ254/Action-TWRP-builder/releases/tag/7072955857" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+        <div class="card">
+          <h4>Android 14 OrangeFox Recovery</h4>
+          <p></p>
+          <a href="https://github.com/AndroidHQ254/Action-OFRP-Builder/releases/tag/7071894074" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom ROM Section -->
+  <section id="custom-rom" class="section">
+    <div class="container">
+      <h3><i class="fas fa-cogs"></i> Custom ROM</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>DerpFest</h4>
+          <p></p>
+          <a href="https://sourceforge.net/projects/derpfest/files/toco/" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+        <div class="card">
+          <h4>PixelOS</h4>
+          <p></p>
+          <a href="https://pixelos.net/download/toco" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+        <div class="card">
+          <h4>Project Elixir</h4>
+          <p></p>
+          <a href="https://projectelixiros.com/download" class="btn-link"><i class="fas fa-download"></i> İndir</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom ROM Pages Section -->
+  <section id="custom-rom-pages" class="section">
+    <div class="container">
+      <h3><i class="fas fa-terminal"></i> Custom ROM Sayfaları</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>ANDROID HQ + PC</h4>
+          <a href="https://androidhq254.blogspot.com/" class="btn-link"><i class="fas fa-link"></i> Git</a>
+        </div>
+        <div class="card">
+          <h4>SourceForge</h4>
+          <a href="https://sourceforge.net/directory/roms/windows/" class="btn-link"><i class="fas fa-link"></i> Git</a>
+        </div>
+        <div class="card">
+          <h4>XDA Forums</h4>
+          <a href="https://xdaforums.com/f/xiaomi-mi-note-10-lite-roms-kernels-recoveries.11161/" class="btn-link"><i class="fas fa-link"></i> Git</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADB and Fastboot Commands -->
+  <section id="commands" class="section">
+    <div class="container">
+      <h3><i class="fas fa-terminal"></i> ADB & Fastboot Komutları</h3>
+      <div class="commands-category">
+        <h4><i class="fas fa-laptop"></i> ADB Komutları</h4>
+        <div class="command">
+          <code>adb devices</code>
+          <button class="copy-btn" onclick="copyText('adb devices')">Kopyala</button>
+        </div>
+        <div class="command">
+          <code>adb reboot bootloader</code>
+          <button class="copy-btn" onclick="copyText('adb reboot bootloader')">Kopyala</button>
+        </div>
+        <div class="command">
+          <code>adb sideload filename.zip</code>
+          <button class="copy-btn" onclick="copyText('adb sideload filename.zip')">Kopyala</button>
+        </div>
+      </div>
+      <div class="commands-category">
+        <h4><i class="fas fa-cogs"></i> Fastboot Komutları</h4>
+        <div class="command">
+          <code>fastboot devices</code>
+          <button class="copy-btn" onclick="copyText('fastboot devices')">Kopyala</button>
+        </div>
+        <div class="command">
+          <code>fastboot flash recovery recovery.img</code>
+          <button class="copy-btn" onclick="copyText('fastboot flash recovery recovery.img')">Kopyala</button>
+        </div>
+        <div class="command">
+          <code>fastboot reboot</code>
+          <button class="copy-btn" onclick="copyText('fastboot reboot')">Kopyala</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Xiaomi ROM Rehberi. Tüm Hakları Saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
